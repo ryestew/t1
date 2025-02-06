@@ -22,7 +22,7 @@ contract Ballot {
         // If you can limit the length to a certain number of bytes, 
         // always use one of bytes1 to bytes32 because they are much cheaper
         bytes32 name;   // short name (up to 32 bytes)
-        uint voteCount; // number of accumulated votes
+        uint voteCount; // number of accumulated votess
     }
 
     address public chairperson;
