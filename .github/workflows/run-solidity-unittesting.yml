@@ -17,9 +17,9 @@ jobs:
       with:
         test-path: 'tests'
         compiler-version: '0.8.15'
-//      evm-version: 'paris'
+      evm-version: 'paris'
 //      optimize: true
 //      optimizer-runs: 200
-//      node-url: 'https://mainnet.infura.io/v3/08b2a484451e4635a28b3d8234f24332'
-//      block-number: 'latest'
-//      hard-fork: 'merge'
+      node-url: 'https://mainnet.infura.io/v3/08b2a484451e4635a28b3d8234f24332'
+      block-number: 'latest'
+      hard-fork: 'Cancun'
